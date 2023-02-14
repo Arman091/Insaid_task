@@ -630,30 +630,6 @@ footer ul li {
 
 
 
-.pagination {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.pagination > li > a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px;
-  margin-left: 5px;
-  font-size: 20px;
-}
-
-.pagination > li > a.active {
-  background-color: var(--black);
-  color: var(--main-bg-color);
-}
-
-.pagination > li > a:hover {
-  border: 2px solid var(--black);
-}
 
 .product-img {
   display: flex;
@@ -833,32 +809,6 @@ footer ul li {
     padding: 10px 0;
   }
 
-  .mega-dropdown > a > i {
-    display: none;
-  }
-
-  .mega-content {
-    position: relative;
-    opacity: 1;
-    visibility: visible;
-    box-shadow: unset;
-    background-color: transparent;
-    padding-left: 45px;
-  }
-
-  .mega-content h3 {
-    font-size: 15px;
-    padding: 5px 0;
-    margin: unset;
-  }
-
-  .mega-content ul > li > a {
-    padding: 5px 0;
-  }
-
-  .mega-content .img-row {
-    display: none;
-  }
 
   .hero {
     height: 500px;
@@ -919,9 +869,7 @@ footer ul li {
     width: 100%;
   }
 
-  .pagination {
-    justify-content: center;
-  }
+  
 }
 
 @media only screen and (max-width: 750px) {
